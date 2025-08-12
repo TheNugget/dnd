@@ -81,7 +81,7 @@ No collections found in the database.
 
 ### `data/website/appdev.py`
 
-This script launches a Streamlit-based web app that serves as a Dungeons & Dragons 5e SRD assistant. It uses a local Ollama LLM and ChromaDB to answer user questions based strictly on SRD-compliant content.
+This script launches a Streamlit-based web app that serves as a Dungeons & Dragons 5e SRD assistant. It uses a local Ollama LLM and ChromaDB to answer user questions based strictly on SRD-compliant content. Make sure that the ollama server is accessible from this container or location.  Also make sure that the model is available on the ollama server.
 
 #### 🧠 Features
 
