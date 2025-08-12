@@ -15,10 +15,16 @@
 
 ## 🛠 Installation
 
+Clone the repository:
+    git clone https://github.com/TheNugget/dnd.git
+    cd dnd
+
 Build the Docker image:
 
 ```bash
 docker build -t chroma-backend .
+
+Run the container: you can remove --rm if you want it to be static.
 
 docker run -it --rm \
   -p 6022:22 \
