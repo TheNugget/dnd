@@ -32,7 +32,7 @@ docker run -it --rm \
   -p 6002:6002 \
   -p 6003:6003 \
   -p 6004:6004 \
-  -v "$(pwd)/data:/data" \
+  -v "$(pwd)/data:/app/data" \
   --name chroma-backend \
   chroma-backend
 
